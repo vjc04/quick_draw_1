@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/script.js" defer></script>
+    <title>Tablero</title>
+   
+    <link rel="stylesheet" type="text/css" href="/css/canvastyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="/image/logo.png"> 
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+  
+</head>
+<body class="body1">
+    <nav>
+        <a  href="/index.html"><button class="regresar">REGRESAR</button></a>
+    </nav>
+    
+    <div class="container">
+      
+
+        <section class="tool-bar">
+            <div class="row">
+                <ul class="options">
+                    <li class="option active tool " id="brush">
+                        <img src="/icons/brush.svg" alt="brocha">
+                        <span>Pincel</span>
+                    </li>
+                    <li class="option tool " id="eraser">
+                        <img src="/icons/eraser.svg" alt="borrador">
+                        <span>Borrador</span>
+                    </li>
+                    <li class="option">
+                        <input type="range" id="size-slider" min="1" max="30" value="5">
+
+                    </li>
+                </ul>
+            </div>
+            <div class="row colors">
+                <label class="title">Colores</label>
+                <ul class="options">
+                    <li class="option"></li>
+                    <li class="option selected"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option">
+                    <input type="color" id="Color-picker" value="#4A98F7">
+                    </li>
+                </ul>
+            </div>
+            <div class="row buttons">
+                <button class="save-image">Guardar Imagen</button>
+                <button class="clear-canvas">Borrar Tablero</button>
+                
+            </div>
+        </section>
+        <section class="drawing-board">
+            <canvas></canvas>
+        </section>
+
+        <section class="chat">
+            <div>
+              <h1>CHAT</h1>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>

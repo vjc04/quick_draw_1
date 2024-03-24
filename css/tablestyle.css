@@ -1,0 +1,74 @@
+body {
+    background-image: url("/image/fondo.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     font-family: "Concert One", sans-serif;
+     
+   }
+ 
+   #intro {
+    
+     height: 100vh;
+   }
+   #box{
+    justify-content:center;
+    margin-top: 10px;
+    border-radius: 30px;
+  }
+
+    /* If the screen size is 1200px wide or more, set the font-size to 80px */
+    @media (min-width: 1200px) {
+        .width-font {
+          color: #3D58F9;
+          font-size: 40px;
+          font-family: "Concert One", sans-serif;
+          text-align: center;
+        }
+        #group{
+          width: 70px;
+          height: 70px;
+        }
+      }
+    
+      @media (max-width: 1199.98px) {
+        .width-font{
+          color: #3D58F9;
+          font-size: 30px;
+          font-family: "Concert One", sans-serif;
+          text-align: center;
+        }
+        #group{
+          width: 50px;
+          height: 50px;
+        }
+      }
+    
+      @media (max-width: 720px) {
+        .width-font{
+          color: #3D58F9;
+          font-size: 20px;
+          font-family: "Concert One", sans-serif;
+          text-align: center;
+          
+        }
+        #group{
+          width: 30px;
+          height: 30px;
+        }
+    }
+
+
+
+
+   #iniciar{
+  
+    border-radius: 30px;
+  }
+  .centrado{
+    text-align: center;
+    vertical-align: middle ;
+    font-size: 20px;
+}
+
+
